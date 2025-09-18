@@ -3,6 +3,7 @@ import { Header } from './components/header';
 import { SideBar } from './components/sideBar';
 import { MainContent } from './components/mainContent';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { Politics } from './components/politics';
 
 function App() {
 
@@ -21,10 +22,10 @@ function App() {
         <Header title="News website" />
         <div id="container">
           <SideBar items={navItems} />
-          <main>
+          <main id="id_main">
             <Routes>
               <Route path="/" element={<MainContent />} />
-              <Route path="/politics" element={<h2>Politics Page</h2>} />
+              <Route path="/politics" element={<Politics/>} />
               <Route path="/economy" element={<h2>Economy Page</h2>} />
               <Route path="/sports" element={<h2>Sports Page</h2>} />
               <Route path="/culture" element={<h2>Culture Page</h2>} />
