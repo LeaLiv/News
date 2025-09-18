@@ -19,13 +19,9 @@ ul {
 #container{
   display: flex;
   min-height: 100vh;
+  padding-top: 100px;
 }
 #container main {
   flex: 1;
   padding: 20px;
-}
-#layout{
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
 }
