@@ -1,0 +1,26 @@
+a {
+    text-decoration: none;
+    color: #333;
+  font-weight: bold;
+}
+
+nav {
+    width: 10%;
+    padding: 20px;
+    background-color: #ddcc9c5c;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    height: 100vh;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  margin-bottom: 15px;
+}
+a:hover {
+  color: darkblue;
+}

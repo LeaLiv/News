@@ -1,0 +1,21 @@
+header {
+    margin: 0;
+    padding: 0;
+    height: 100px;
+    box-sizing: border-box;
+    background-color: #ddcc9c5c;
+    /* display: flex; */
+    /* align-items: center; */
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
+}
+
+h1 {
+    margin: 0;
+    padding: 17px;
+}
